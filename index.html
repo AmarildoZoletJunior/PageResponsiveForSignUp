@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <div class="login">
+        <img src="./banner.png" alt="LOGO" class="login-logo">
+        <h1 class="titulo">Tela de login</h1>
+
+                    <label class="login-label" id="labelNome">
+                    <span>Nome</span>
+                    <input type="text"  class="input" id="nome">
+                    </label>
+
+                    <label class="login-label" id="labelUsuario">
+                        <span>Usúario</span>
+                    <input type="text" class="input" id="usuario" >
+                    </label>
+
+                    <label class="login-label" id="labelSenha">
+                        <span>Senha</span>
+                    <input type="password" class="input" id="senha">
+                    </label>
+
+                    <label for="country" class="login-label">
+                        <span id="123">País</span>
+                 <select id="country" name="country" class="input">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Brasil</option>
+                  </select>
+                </label>
+                <button type="submit" onclick="cadastrar()" class="submit">Conectar a conta</button>
+            </div>
+            <img src="https://img.freepik.com/vetores-gratis/jogo-joystick-tecnologia-esportiva_138676-2045.jpg?w=2000" alt="" class="imagemdireita">
+        </div> 
+    <script src="./index.js"></script>
+</body>
+</html>
